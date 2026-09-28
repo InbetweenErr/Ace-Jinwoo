@@ -1,58 +1,108 @@
-# Ace-Jinwoo OS
+# Hey, I'm Bobby 👋
 
+I'm a systems-minded technologist exploring the intersection of **Linux, infrastructure, automation, security, and creative technology**.
 
-This repository provides a minimal Nix flake that builds an Athena OS based system customised with the **Ace‑Jinwoo** theme.
+I'm currently building toward a career in IT infrastructure and cloud engineering, with a particular interest in understanding how systems actually work under the hood—not just how to use them.
 
-The configuration reuses [Athena OS](https://github.com/Athena-OS/athena-nix) modules and applies a custom theme defined in `modules/ace-jinwoo-theme`.
+## 🐧 What I'm Into
 
-## Features
+* Linux & open-source software
+* Systems administration and infrastructure
+* Shell scripting and Python automation
+* Cloud infrastructure and DevOps
+* Cybersecurity & digital forensics
+* Self-hosting and homelabs
+* Containers, virtualization, and local computing
+* Local AI/LLM experimentation
+* Technical documentation and knowledge management
+* Creative technology and music production
 
-- Deepin desktop with the Ace‑Jinwoo look and feel
-- VMware guest integration via `open-vm-tools`
+## 🔧 What I'm Learning
 
-## Getting Started
+I'm currently working through **Boot.dev** and building practical Linux, Python, and systems projects along the way.
 
-1. Ensure [Nix](https://nixos.org/) is installed.
-2. Clone this repository:
-   ```bash
-   git clone <this repo url> ace-jinwoo
-   cd ace-jinwoo
-   ```
-3. Build or install the system using `nixos-rebuild`:
-   ```bash
-   sudo nixos-rebuild switch --flake .#acejinwoo --impure
-   ```
-   The `--impure` flag allows using your local `hardware-configuration.nix`.
+My current focus is less about collecting technologies and more about building the ability to:
 
-The default user configured is `ace` with the Ace-Jinwoo themed Deepin desktop.
+```text
+understand a system
+       ↓
+break it down
+       ↓
+automate it
+       ↓
+document it
+       ↓
+make it reliable
+```
 
-VMware guest tools are enabled out of the box so the system integrates smoothly when run inside VMware products. The build sets `virtualisation.vmware.guest.enable = true` so the `open-vm-tools` service starts automatically.
+I'm especially interested in the space between **systems administration and software engineering**—the scripting, automation, troubleshooting, and infrastructure work that makes larger systems possible.
 
-## Customisation
+## 🖥️ My Lab
 
-Edit `configuration.nix` to adjust options such as desktop environment or packages. The Ace-Jinwoo theme itself can be tweaked in `modules/ace-jinwoo-theme/default.nix`.
+A lot of my learning happens through experimentation.
 
-**Ace-Jinwoo OS** is a minimal yet powerful NixOS flake that builds a customized Athena OS environment. It ships with a Deepin desktop themed in the Ace-Jinwoo style, and is tailored for clarity, beauty, and extensibility — whether you're running native or inside VMware.
+I enjoy building things locally, breaking them, figuring out why they broke, and documenting what I learned.
+
+Some of the things I've worked with include:
+
+* Debian Linux
+* Bash / POSIX shell
+* Python
+* Docker & Podman
+* systemd
+* SSH
+* Git & GitHub
+* KVM/QEMU
+* REST APIs
+* Self-hosted services
+* Local AI/LLM infrastructure
+
+I tend to prefer **boring, understandable infrastructure that I can actually explain** over technology for the sake of technology.
+
+## 🔐 Background
+
+My formal background is rooted in **cybersecurity and digital forensics**.
+
+I hold a **CompTIA Security+** certification and completed graduate-level study in Digital Forensics, including work involving file systems, digital evidence, incident response, and cybercrime investigation.
+
+These days, I'm expanding that foundation toward **Linux, infrastructure, automation, and cloud systems**.
+
+## 🎹 Outside of IT
+
+Technology isn't my entire personality.
+
+I'm also interested in:
+
+* 🎵 Music production
+* 🎮 Video games
+* 🧠 AI and emerging technology
+* 🐧 Linux culture and open source
+* 📚 Learning random things just because they're interesting
+* 🛠️ Figuring out how things work
+* ✍️ Writing and documentation
+
+I like projects where technical problem-solving and creativity overlap.
+
+## 🌱 Current Chapter
+
+Right now I'm focused on building a stronger technical foundation before starting graduate study in Information Technology.
+
+That means a lot of:
+
+**Linux → Python → automation → infrastructure → cloud**
+
+and a healthy amount of breaking things in the process.
+
+I'm not trying to become an expert in everything.
+
+I'm trying to become the person who can sit down in front of an unfamiliar system, understand what's happening, and **figure it out.**
 
 ---
 
-## 🌱 Getting Started
+> *Build things. Break things. Learn why they broke. Build them better.*
 
-### Prerequisites
+### 📫 Around the Web
 
-- [Nix](https://nixos.org/download.html) must be installed with flakes enabled.
-- A system with at least **4 GB RAM** and **20 GB disk** recommended.
-- (Optional) [VMware Workstation](https://www.vmware.com/products/workstation-pro.html) for VM deployment.
-
----
-
-### 🛠 Install Instructions
-
-```bash
-# Clone the repo
-git clone https://github.com/PhantomRoland/Ace-Jinwoo ace-jinwoo
-cd ace-jinwoo
-
-# Switch to the system using nixos-rebuild
-sudo nixos-rebuild switch --flake .#acejinwoo --impure
-
+* GitHub: You're already here.
+* LinkedIn: [Coming soon]
+* Projects: This profile is where I'm documenting the journey.
